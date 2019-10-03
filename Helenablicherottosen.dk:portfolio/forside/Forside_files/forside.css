@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0;}
+body {background-color: #d9d9d9;
+  margin: 0;padding: 0;}
+
+.titel {background: #e6e6e6}
+h1 {text-align: center;
+font-size: 400%; color: #ff80bf;}
+
+.navigation{display: flex;
+  justify-content: space-between;
+font-family: sans-serif;
+padding: 15px;
+justify-content: center;}
+
+.navigation a {text-decoration: none; color: #ff80bf;
+align-items: center;}
+.navigation nav {display: flex;
+  width: 400px;
+  justify-content: space-around;}
+.navigation nav a:hover{color: darkred;}
+
+.billede {display: flex; justify-content: space-around;background-color: blue;}
+
+.liste2{background-color: pink; border-radius: 12px;}

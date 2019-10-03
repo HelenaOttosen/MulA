@@ -1,0 +1,70 @@
+body {background-color: #e6e6e6;
+margin-top: 0px; padding: 0px;}
+
+
+
+.container{display: flex;
+  flex-wrap:wrap;
+  border-color: black;
+padding: 7%;
+margin-top: -100px;
+margin-left: -100px;
+margin-right: -100px;
+margin-bottom: -100px;}
+
+.logo, .titel, .sektion, .sektion1, .footer {background: #e6e6e6;
+  outline: 1px /*solid black*/; width:100%; margin: 1%; display: flex;
+justify-content: center; align-items: center;}
+
+.logo {
+width: 10%; height: 60px; float: left;}
+
+.titel {display: flex; width: 86%;
+height: 60px;justify-content: center;
+  color:#ff80bf;
+font-size: 400%;
+font-family: 'Zilla Slab', serif;}
+
+.nav {display: flex;
+  height: 60px;
+   border-radius: 40px;
+   background-color: pink;
+ width: 40%;
+margin-left:500px;
+border-color: black;}
+
+.sektion {width: 86%;
+height: 900px;}
+.sektion1 {display: flex; width: 10%;
+float: right;
+background-color: pink;
+border-radius: 120px}
+
+.navigation {display: flex; justify-content: space-around;}
+.navigation a {text-decoration: none; color: Purple;;
+font-size: 100%;}
+.navigation a:hover {color: darkred; }
+
+/*.titel {display: flex; justify-content: center;
+  color:#ff80bf;
+font-size: 400%;
+font-family: 'Zilla Slab', serif;}*/
+
+ul {list-style-type: none;
+font-family: 'Zilla Slab', serif;}
+
+li a {padding: 10px;}
+
+.info {display: flex;}
+.info a {text-decoration: none;
+color: purple;
+font-size: 150%;
+display: flex; align-items: flex-start;}
+.info a:hover {color: darkred;}
+
+.ul1{display: inline-flex;
+justify-content: space-between;
+font-family: 'Zilla Slab', serif;}
+
+h1{font-family: 'Zilla Slab', serif;}
+h2 {font-family: 'Zilla Slab', serif;}
